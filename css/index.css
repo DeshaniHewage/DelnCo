@@ -374,7 +374,7 @@ body{
 /*Mobile*/
 @media (max-width: 35em) {
   .logo {
-    margin-right: 1.5rem;
+    margin-right: 0.4rem;
     width: 92px;
   }
 
