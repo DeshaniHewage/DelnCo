@@ -53,11 +53,7 @@
 
 /* Media Quaries */
 @media (min-width: 45em) {
-    .contact-us {
-        /*grid-template-areas: 
-        'one two';*/
-    }
-
+    
     .contact-us h1 {
         font-size: 1rem;
     }
