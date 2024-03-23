@@ -1,0 +1,42 @@
+/* Blog Section */
+
+.blog {
+    margin-block: 5rem;
+    --grid-gap: 2rem;
+}
+ 
+.recent-news:nth-child(1){
+    grid-area: one;
+}
+
+.recent-news:nth-child(2){
+    grid-area: two;
+}
+
+.recent-news:nth-child(3){
+    grid-area: three;
+}
+
+.recent-news:nth-child(4){
+    grid-area: four;
+}
+
+.recent-news:nth-child(5){
+    grid-area: five;
+}
+
+.recent-news:nth-child(6){
+    grid-area: six;
+}
+
+
+/* Media Query */
+/* IPad */
+@media (min-width: 35em) and (max-width: 59em) {
+.recent-news {
+    grid-template-areas: 
+    'one two'
+    'three four'
+    'five six';
+}
+}
