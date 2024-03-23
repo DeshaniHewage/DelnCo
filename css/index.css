@@ -409,7 +409,7 @@ body{
     z-index: 88888;
     top: 5.5rem;
     position: fixed;
-    right: 10.5rem;
+    right: 11rem;
     border: 0;
     font-size: 2rem;
     color: hsl(var(--clr-black) / 0.8);
