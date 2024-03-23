@@ -400,8 +400,8 @@ body{
   }
 
   .header-login {
-    --flex-gap: 1.5rem;
-    margin-left: -1rem;
+    --flex-gap: 1rem;
+    margin-left: -1.2rem;
   }
 
   .mobile-close-btn {
@@ -409,7 +409,7 @@ body{
     z-index: 88888;
     top: 5.5rem;
     position: fixed;
-    right: 11.5rem;
+    right: 10rem;
     border: 0;
     font-size: 2rem;
     color: hsl(var(--clr-black) / 0.8);
@@ -424,9 +424,10 @@ body{
 
   .mobile-open-btn {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     cursor: pointer;
     margin-top: -0.7rem;
+    margin-right: -0.1rem;
   }
 
   .cart-icon {
