@@ -375,7 +375,7 @@ body{
 @media (max-width: 35em) {
   .logo {
     margin-right: 2rem;
-    width: 120px;
+    width: 90px;
   }
 
   .primary-navigation {
