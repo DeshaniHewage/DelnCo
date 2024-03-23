@@ -373,6 +373,10 @@ body{
 /* Header Media Quaries */
 /*Mobile*/
 @media (max-width: 35em) {
+  .logo {
+    margin-right: 2rem;
+    width: 120px;
+  }
 
   .primary-navigation {
     position: fixed;
@@ -405,7 +409,7 @@ body{
     z-index: 88888;
     top: 5.5rem;
     position: fixed;
-    right: 14.3rem;
+    right: 11.5rem;
     border: 0;
     font-size: 2rem;
     color: hsl(var(--clr-black) / 0.8);
@@ -464,7 +468,7 @@ body{
     z-index: 88888;
     top: 5.5rem;
     position: fixed;
-    right: 23.2rem;
+    right: 24.2rem;
     border: 0;
     font-size: 2rem;
     color: hsl(var(--clr-black) / 0.8);
@@ -530,6 +534,7 @@ body{
   border: 0;
   padding: 0.7rem 1rem;
   border-radius: 2rem;
+  margin-top: 4rem;
   cursor: pointer;
   transition: transform 250ms ease-in-out;
 }
@@ -1107,8 +1112,8 @@ body{
 
 /* ===== Second Feature Section ===== */
 .feature-green img {
-  margin-top: -19rem;
-  right: 4rem;
+  margin-top: -17rem;
+  right: 3rem;
   width: 80%;
 }
 
@@ -1256,7 +1261,7 @@ body{
 }
 
 .footer .contact > p {
-  width: 30%;
+  width: 35%;
 }
 
 .inputField {
