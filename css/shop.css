@@ -51,7 +51,7 @@ button{cursor: pointer;}
 .shop-btn {
     align-items: center;
     --flex-gap: 3rem;
-    transform: translateX(-40%);
+    transform: translateX(-42%);
     transition: transform 250ms ease-in-out;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ button{cursor: pointer;}
 
 .shop-btn > button {
     border: 0;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 2rem;
 }
 
@@ -73,7 +73,7 @@ button{cursor: pointer;}
     background-color: hsl(var(--clr-red));
     top: 1rem;
     left: 1rem;
-    border-radius: 10%;
+    border-radius: 50%;
     padding: 1rem;
     color: hsl(var(--clr-white));
 }
