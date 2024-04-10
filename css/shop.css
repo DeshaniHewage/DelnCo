@@ -45,13 +45,13 @@ button{cursor: pointer;}
 }
 
 .product-list img {
-    border-radius: 1rem;
+    border-radius: 6rem;
 }
 
 .shop-btn {
     align-items: center;
     --flex-gap: 3rem;
-    transform: translateX(-38%);
+    transform: translateX(-42%);
     transition: transform 250ms ease-in-out;
     cursor: pointer;
 }
