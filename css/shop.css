@@ -51,13 +51,13 @@ button{cursor: pointer;}
 .shop-btn {
     align-items: center;
     --flex-gap: 3rem;
-    transform: translateX(-42%);
+    transform: translateX(-38%);
     transition: transform 250ms ease-in-out;
     cursor: pointer;
 }
 
 .product-list:hover .shop-btn {
-    transform: translateX(0%);
+    transform: translateX(10%);
 }
 
 .shop-btn > button {
