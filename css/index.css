@@ -1381,9 +1381,6 @@ body{
 /* ===== CopyRight Section ===== */
 
 /* Utility Class */
-.text-align {
-  text-align: center;
-}
 
 .p-top {
   padding: 1rem 0;
@@ -1419,7 +1416,7 @@ body{
   }
 
   .c-font {
-    font-size: 1rem;
+    font-size: 5rem;
   }
 }
 
