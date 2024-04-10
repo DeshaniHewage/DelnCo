@@ -73,7 +73,7 @@ button{cursor: pointer;}
     background-color: hsl(var(--clr-red));
     top: 1rem;
     left: 1rem;
-    border-radius: 50%;
+    border-radius: 10%;
     padding: 1rem;
     color: hsl(var(--clr-white));
 }
