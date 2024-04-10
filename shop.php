@@ -204,7 +204,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                 <ul>
                 <li><a class="fs-Montserrat text-black fs-100" href="index.html">Home</a></li>
                 <li><a class="fs-Montserrat text-black fs-100" href="about.html">About</a></li>
-                <li><a class="fs-Montserrat text-black fs-100" href="shop.html">Shop</a></li>
+                <li><a class="fs-Montserrat text-black fs-100" href="shop.php">Shop</a></li>
                 <li><a class="fs-Montserrat text-black fs-100" href="contactus.html">Contact</a></li>
                 </ul>
               </div>
