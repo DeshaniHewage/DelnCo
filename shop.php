@@ -1,3 +1,10 @@
+<?php
+@include 'config.php';
+
+$result = mysqli_query($conn, "SELECT * FROM products");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -113,12 +120,19 @@
 
                 <!--Shop Product-->
                 <section class="shop-product grid">
+                <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -126,15 +140,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -142,15 +164,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -158,15 +188,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                    <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -174,15 +212,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -190,15 +236,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -206,15 +260,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -222,15 +284,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -238,15 +308,23 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
 
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                   <div class="product-list grid">
-                    <img src="image/p-3.jpg" alt="">
-                    <p class="fs-Montserrat bold-600">Beats</p>
+                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+
+                    <p class="fs-Montserrat bold-600">  
+                    Beats
+                    <?php echo $row['name']; ?>
+                  </p>
                     <div class="shop-btn flex">
                       <button class="bg-red text-white fs-Montserrat">Add To Cart</button>
-                      <p class="fs-Montserrat bold-700">$ 995.00</p>
+                      <p class="fs-Montserrat bold-700">$ 995.00
+                      <?php echo $row['price']; ?>
+                      </p>
                     </div>
                     <!--Pop Up-->
                     <div class="pop-up">
@@ -254,6 +332,7 @@
                     </div>
                     <!--Pop Up-->
                   </div>
+                  <?php } ?>
                   <!--Product End-->
 
                   
