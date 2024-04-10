@@ -64,7 +64,7 @@ button{cursor: pointer;}
 .shop-btn > button {
     border: 0;
     padding: 0.5rem 1rem;
-    border-radius: 2rem;
+    border-radius: 10rem;
 }
 
 /* Pop Up Box */
