@@ -56,9 +56,6 @@ button{cursor: pointer;}
     cursor: pointer;
 }
 
-.shop-btn p {
-    right: 10px;
-}
 
 .product-list:hover .shop-btn {
     transform: translateX(0%);
