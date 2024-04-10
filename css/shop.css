@@ -51,7 +51,7 @@ button{cursor: pointer;}
 .shop-btn {
     align-items: center;
     --flex-gap: 3rem;
-    transform: translateX(-30%);
+    transform: translateX(-48%);
     transition: transform 250ms ease-in-out;
     cursor: pointer;
 }
