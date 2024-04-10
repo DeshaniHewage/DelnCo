@@ -144,7 +144,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -168,7 +168,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                  
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -192,7 +192,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                  
                   <div class="product-list grid">
                     <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -216,7 +216,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                 
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -240,7 +240,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                  
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -264,7 +264,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                  
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -288,7 +288,7 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                  
                   <div class="product-list grid">
                   <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
@@ -312,9 +312,9 @@ $result = mysqli_query($conn, "SELECT * FROM products");
                   <!--Product End-->
 
 
-                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
+                 
                   <div class="product-list grid">
-                  <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
+                    <img src="uploaded_img/<?php echo $row['image']; ?>" alt="">
 
                     <p class="fs-Montserrat bold-600">  
                     Beats
