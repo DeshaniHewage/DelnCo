@@ -1391,7 +1391,6 @@ body{
   margin-top: 5rem;
   padding: 1rem 2rem;
   margin-inline: auto;
-  align-items: center;
   background-color: hsl(var(--clr-black));
   color: hsl(var(--clr-white) / 0.5);
 }
