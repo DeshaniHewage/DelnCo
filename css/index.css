@@ -68,7 +68,7 @@
 @media (min-width: 59em) {
   :root {
     /* font-size */
---fs-bf-194: 12.3vw;
+--fs-bf-194: 11.1vw;
 --fs-bf-109: 6.8125rem;
 --fs-bf-65: 4.065rem;
 --fs-bf-80: 5rem;
@@ -568,12 +568,25 @@ body{
   padding-bottom: 4rem;
 }
 
+.hero-inner a {
+  text-decoration: none;
+}
+
 .hero-info {
   display: none;
 }
 
 .lineheight {
   --line: 1rem;
+}
+
+.lineheight2 {
+  --line2: 4rem;
+}
+
+.large-btn {
+  display: block;
+  margin-top: -3.4rem;
 }
 
 /* Media Quaries */ 
@@ -607,11 +620,11 @@ body{
   }
 
   .lineheight {
-    --line: 4rem;
+    --line: 5rem;
   }
 
   .lineheight2 {
-    --line2: 13rem;
+    --line2: 11rem;
   }
 
   .hero-info {
@@ -619,6 +632,12 @@ body{
     text-align: end;
     width: 25%;
     bottom: 1rem;
+    margin-top: 18rem;
+
+  }
+
+  .large-btn {
+    margin-top: 15rem;
   }
 
   .big-wireless {
