@@ -606,10 +606,6 @@ body{
     padding-top: clamp(4rem, 30vh, 15rem);
   }
 
-  .hero-section >* img {
-    margin-top: -30rem;
-  }
-
   .lineheight {
     --line: 4rem;
   }
@@ -622,6 +618,7 @@ body{
     display: block;
     text-align: end;
     width: 25%;
+    bottom: 1rem;
   }
 
   .big-wireless {
