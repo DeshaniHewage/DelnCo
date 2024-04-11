@@ -31,7 +31,11 @@
 }
 
 .about-btn {
-    margin-top: 3rem;
+    margin-top: 4rem;
+}
+
+.about-btn a {
+    text-decoration: none;
 }
 
 /*  Media Quaries */
@@ -56,5 +60,9 @@
     .about-info p {
         line-height: 1.8rem;
         text-align: justify;
+    }
+
+    .about-btn {
+        margin-top: -12rem;
     }
 }

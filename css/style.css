@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --green:#27ae60;
+   --blue:#1d0980;
    --black:#333;
    --white:#fff;
    --bg-color:#eee;
@@ -34,7 +34,7 @@ html{
    margin-top: 1rem;
    font-size: 1.7rem;
    padding:1rem 3rem;
-   background: var(--green);
+   background: var(--blue);
    color:var(--white);
    text-align: center;
 }
@@ -123,7 +123,7 @@ html{
 }
 
 .product-display .product-display-table .btn:last-child{
-   background: crimson;
+   background:#960303;
 }
 
 .product-display .product-display-table .btn:last-child:hover{

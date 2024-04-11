@@ -186,47 +186,48 @@ $result = mysqli_query($conn, "SELECT * FROM products");
     
         <!-- = Start Footer Section = -->
         <section class="footer grid">
-          <div class="footer-logo grid">
-            <img src="image/DEL & CO New Logo black.png" alt="">
-            <p class="fs-Montserrat fs-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Exercitationem laudantium laborum mollitia?</p>
-              
-              <div class="social-media flex">
-                <a class="text-black" href="https://www.facebook.com/leather.delnco?mibextid=ZbWKwL" target="_blank"> <i class='bx bxl-facebook' ></i></a>
-                <a class="text-black" href="https://www.instagram.com/delnco.leather?igsh=ZDIzNXN0anpmY2hl" target="_blank"> <i class='bx bxl-instagram' ></i></a>
-                <a class="text-black" href="https://youtube.com/@delnco_leather?si=FRBq0oT2ghkkS5Cc" target="_blank"> <i class='bx bxl-youtube' ></i></a>
-                <a class="text-black" href="https://www.tiktok.com/@del_n_co?_t=8kuvQJyR41i&_r=1" target="_blank"> <i class='bx bxl-tiktok' ></i></a>
-              </div>
-          </div>
-
-              <div class="footer-menu grid">
-                <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
-                <ul>
-                <li><a class="fs-Montserrat text-black fs-100" href="index.html">Home</a></li>
-                <li><a class="fs-Montserrat text-black fs-100" href="about.html">About</a></li>
-                <li><a class="fs-Montserrat text-black fs-100" href="shop.php">Shop</a></li>
-                <li><a class="fs-Montserrat text-black fs-100" href="contactus.html">Contact</a></li>
-                </ul>
+              <div class="footer-logo grid">
+                <img src="image/DEL & CO New Logo black.png" alt="">
+                <p class="fs-Montserrat fs-100">Experience the timeless allure of leather: a sensory journey of 
+                  craftsmanship and elegance.</p>
+                  
+                  <div class="social-media flex">
+                    <a class="text-black" href="https://www.facebook.com/leather.delnco?mibextid=ZbWKwL" target="_blank"> <i class='bx bxl-facebook' ></i></a>
+                    <a class="text-black" href="https://www.instagram.com/delnco.leather?igsh=ZDIzNXN0anpmY2hl" target="_blank"> <i class='bx bxl-instagram' ></i></a>
+                    <a class="text-black" href="https://youtube.com/@delnco_leather?si=FRBq0oT2ghkkS5Cc" target="_blank"> <i class='bx bxl-youtube' ></i></a>
+                    <a class="text-black" href="https://www.tiktok.com/@del_n_co?_t=8kuvQJyR41i&_r=1" target="_blank"> <i class='bx bxl-tiktok' ></i></a>
+                  </div>
               </div>
 
+                  <div class="footer-menu grid">
+                    <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+                    <ul>
+                    <li><a class="fs-Montserrat text-black fs-100" href="index.html">Home</a></li>
+                    <li><a class="fs-Montserrat text-black fs-100" href="about.html">About</a></li>
+                    <li><a class="fs-Montserrat text-black fs-100" href="shop.php">Shop</a></li>
+                    <li><a class="fs-Montserrat text-black fs-100" href="contactus.html">Contact</a></li>
+                    </ul>
+                  </div>
 
-            <div class="contact grid">
-              <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
-              <p class="fs-Montserrat">+94 000 0000 xxx xxx Arawwala, Pannipitiya</p>
-            </div>
 
-            <div class="emails grid">
-              <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
-              <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
-            
+                <div class="contact grid">
+                  <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+                  <p class="fs-Montserrat">+94 71 388 2118 341/A,
+                    Mahawatta Rd, Arawwala, Pannipitiya.</p>
+                </div>
 
-              <div class="inputField flex bg-gray">
-                <input type="email" placeholder="Enter Your Email" class="fs-Montserrat bg-gray">
-                <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
-              </div>
-            </div>
-        </section>
-        <!-- = End Footer Section = -->
+                <div class="emails grid">
+                  <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+                  <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+                
+
+                  <div class="inputField flex bg-gray">
+                    <input type="email" placeholder="Enter Your Email" class="fs-Montserrat bg-gray">
+                    <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+                  </div>
+                </div>
+            </section>
+            <!-- = End Footer Section = -->
 
 
         <!-- = Start Copyright Section = -->

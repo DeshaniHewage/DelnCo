@@ -63,7 +63,7 @@ button{cursor: pointer;}
 
 .shop-btn > button {
     border: 0;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
 
@@ -73,7 +73,7 @@ button{cursor: pointer;}
     background-color: hsl(var(--clr-red));
     top: 1rem;
     left: 1rem;
-    border-radius: 50%;
+    border-radius: 45%;
     padding: 1rem;
     color: hsl(var(--clr-white));
 }
