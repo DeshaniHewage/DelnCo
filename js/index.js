@@ -27,6 +27,9 @@ navClose.addEventListener('click', ()=>{
    
 })
 
+const formOpenBtn = document.querySelector("#form-open");
+
+
 // Cart Menu
 const shoppingBag = document.getElementById('cart-box');
 const CartItem = document.getElementById('cart-icon');
